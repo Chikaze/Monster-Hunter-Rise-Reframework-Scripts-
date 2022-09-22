@@ -12,7 +12,21 @@
         "about": "關於",
         "author": "製作者",
         "translator": "翻譯者",
-        "version": "版本號"
+        "version": "版本號",
+        "bindings": {
+            "title": "快捷鍵",
+            "keyboard": "鍵盤",
+            "gamepad": "手柄",
+            "remove": "移除",
+            "add_keyboard": "添加鍵盤快捷鍵",
+            "add_gamepad": "添加手柄快捷鍵",
+            "choose_modification": "選擇修改功能",
+            "on_value": "目標值",
+            "to_listen": "開始記錄快捷鍵",
+            "listening": "正在等待輸入...",
+            "save": "儲存",
+            "cancel": "取消"
+        }
     },
     "bow": {
         "title": "弓",
@@ -20,7 +34,7 @@
         "charge_level_prefix": "等級",
         "charge_level_disabled": "禁用",
         "unlimited_arrows": "無限瓶",
-        "herculean_draw": "剛力挽弓",
+        "herculean_draw": "猛力拉弓",
         "herculean_draw_tooltip": "武器上不會出現視覺特效",
         "bolt_boost": "箭強化"
     },
@@ -29,7 +43,7 @@
         "conditions_and_blights": {
             "title": "預防異常狀態",
             "blights": {
-                "title": "累加類異常",
+                "title": "累計類異常",
                 "blast": "爆破",
                 "bubble": "泡沫",
                 "dragon": "龍屬性",
@@ -47,7 +61,12 @@
                 "poison": "毒",
                 "qurio": "劫血",
                 "sleep": "睡意",
-                "still_working_on": "仍在研究: 眩暈 麻痹 絲線束縛"
+                "stun": "眩暈",
+                "stun_tooltip": "仍然有視覺效果",
+                "paralyze": "麻痹",
+                "paralyze_tooltip": "仍然有視覺效果",
+                "thread": "絲線束縛",
+                "thread_tooltip": "仍然有視覺效果"
             }
         },
         "health": {
@@ -68,7 +87,10 @@
             "attack_tooltip": "如果失效 請拖動滑塊到最左邊後重新調節",
             "defence": "防禦力",
             "defence_disabled": "禁用",
-            "defence_tooltip": "如果失效 請拖動滑塊到最左邊後重新調節"
+            "defence_tooltip": "如果失效 請拖動滑塊到最左邊後重新調節",
+            "affinity": "會心率",
+            "affinity_disabled": "禁用",
+            "affinity_tooltip": "如果失效 請拖動滑塊到最左邊後重新調節"
         },
         "unlimited_stamina": "無限耐力"
     },
@@ -85,10 +107,10 @@
         "charge_level": "蓄力等級   ",
         "charge_level_prefix": "等級",
         "charge_level_disabled": "禁用",
-        "impact_burst": "天地大衝撞"
+        "impact_burst": "流星穿地擊"
     },
     "heavy_bowgun": {
-        "title": "重弩炮",
+        "title": "重弩槍",
         "charge_level": "蓄力等級    ",
         "charge_level_prefix": "等級",
         "charge_level_disabled": "禁用",
@@ -97,7 +119,8 @@
         "overheat": "防止過熱",
         "wyvern_machine_gun": "無限機關龍彈",
         "wyvern_sniper": "無限狙擊龍彈",
-        "no_deviation": "無偏移 "
+        "no_deviation": "無偏移 ",
+        "no_recoil": "無後座力 "
     },
     "insect_glaive": {
         "title": "操蟲棍",
@@ -114,12 +137,13 @@
         "anchor_rage_disabled": "禁用"
     },
     "light_bowgun": {
-        "title": "輕弩炮",
+        "title": "輕弩槍",
         "unlimited_ammo": "無限彈藥  ",
         "auto_reload": "自動裝填  ",
-        "fanning_maneuver": "扇旋移動",
+        "fanning_maneuver": "迴旋移動",
         "wyvern_blast": "無限起爆龍彈",
-        "no_deviation": "無偏移  "
+        "no_deviation": "無偏移  ",
+        "no_recoil": "無後坐力  "
     },
     "long_sword": {
         "title": "太刀",
@@ -134,15 +158,15 @@
             "title": "彈藥與瓶",
             "auto_reload": "自動裝填   ",
             "no_deviation": "無偏移   ",
+            "no_recoil": "無後座力   ",
             "unlimited_ammo": "無限彈藥   ",
             "unlimited_coatings": "無限瓶"
         },
         "canteen": {
-            "title": "茶點店",
+            "title": "茶館",
             "dango_100_no_ticket": "無票必發動糰子技能",
             "dango_100_ticket": "有票必發動糰子技能",
-            "level_4": "全糰子技能等級4",
-            "level_4_tooltip": "介面不會對應等級"
+            "level_4": "全糰子技能等級4"
         },
         "consumables": {
             "title": "消耗品",
@@ -171,16 +195,16 @@
         }
     },
     "charge_blade": {
-        "title": "盾斧",
+        "title": "充能斧",
         "full_bottles": "填滿充能瓶",
         "shield_charged": "盾屬性強化",
         "sword_charged": "劍屬性強化",
-        "chainsaw_buff": "Chainsaw Buff"
+        "chainsaw_buff": "斧屬性強化"
     },
     "dual_blades": {
         "title": "雙劍",
         "archdemon_mode": "鬼人化",
-        "ironshine_silk": "鐵蟲砥絲"
+        "ironshine_silk": "鐵蟲研絲"
     },
     "gun_lance": {
         "title": "銃槍",
@@ -192,7 +216,7 @@
     },
     "hunting_horn": {
         "title": "狩獵笛",
-        "infernal_mode": "氣炎旋律",
+        "infernal_mode": "氣炎的旋律",
         "skillbind_shockwave": "鐵蟲絲響打"
     },
     "switch_axe": {
@@ -200,10 +224,10 @@
         "max_charge": "填滿斬擊槽",
         "max_sword_ammo": "劍高輸出狀態",
         "power_axe": "斧高輸出狀態",
-        "switch_charger": "斬擊充能"
+        "switch_charger": "斬擊蓄力"
     },
     "sword_and_shield": {
         "title": "單手劍",
-        "destroyer_oil": "重擊劍藥"
+        "destroyer_oil": "重擊刃藥"
     }
 }
